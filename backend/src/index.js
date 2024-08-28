@@ -7,7 +7,7 @@ import userRouter from './routes/auth.js';
 
 
 const app=express();
-const PORT=4444;
+const PORT=process.env.PORT;
 
 app.use(cors({
     origin: ['https://lvaugdeploy.vercel.app','http://localhost:3000'],
