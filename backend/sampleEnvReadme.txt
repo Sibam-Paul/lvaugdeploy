@@ -1,0 +1,13 @@
+DB_PATH="mongodb://127.0.0.1:27017"
+DB_NAME="DB"
+CORS_ORIGINS="http://localhost:3000"
+PORT=4444
+# jwt
+ACCESS_TOKEN_KEY="Anasduuasdkbkjbbabd badbadbadb_asdaww0122324sdasawdwrqnd"
+ACCESS_TOKEN_EXPIRY=1d
+REFRESH_TOKEN_KEY="Anasduuasdkbkjbbabd badbadbadb_asaksndbdbkjqwbe2314321414124"
+REFRESH_TOKEN_EXPIRY=30d
+
+CLOUDINARY_APISECRET=''
+CLOUDINARY_CLOUDNAME=''
+CLOUDINARY_APIKEY=''
