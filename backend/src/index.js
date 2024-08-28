@@ -7,10 +7,10 @@ import userRouter from './routes/auth.js';
 
 
 const app=express();
-const PORT=process.env.PORT;
+const PORT=4444;
 
 app.use(cors({
-    origin: process.env.CORS_ORIGINS,
+    origin: ['https://lvaugdeploy.vercel.app','http://localhost:3000'],
     credentials: true //means from different place cookies are
     //allowed
 }))
